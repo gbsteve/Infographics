@@ -1,6 +1,6 @@
 var mydata = {};
 
-mydata.url = "http://api.tubeupdates.com/?method=get.status&format=json&callback=?";
+mydata.url = "http://api.tubeupdates.com/?method=get.status&format=json&callback=?appid=f29caf68?key=eaab13200e93f44010a46e8c3c26c1c1?";
 
 $.getJSON(mydata.url, function (data) {
     items = data.response.lines;
