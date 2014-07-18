@@ -12,13 +12,12 @@ function xmlParser(xml){
   //find every Line and print the status
   $(xml).find("Line Status").each(function()
   {
-      (this).find("Line").each(function();
+      (this).find("Line").each(function(){
       $("#data").append("<tr><td>" + $(this).attr("Name") + "<td/>");
-      alert($(this).attr("Name"));
-      (this).find("Status").each(function();
+      };
+      (this).find("Status").each(function(){
       $("#data").append("<td>" + $(this).attr("Description") + "<td/></tr>");
+      };
 
   };
 
-
-;
