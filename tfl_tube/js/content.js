@@ -19,7 +19,7 @@ function xmlParser(xml){
       (this).find("Status").each(function();
       $("#data").append("<td>" + $(this).attr("Description") + "<td/></tr>");
 
-  });
+  };
 
 
 ;
