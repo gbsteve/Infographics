@@ -19,4 +19,5 @@ function xmlParser(xml){
       $("#data").append("<td>" + $(this).attr("Description") + "<td/></tr>");
       });
   });
+};
 
