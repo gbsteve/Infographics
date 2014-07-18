@@ -15,6 +15,7 @@ function xmlParser(xml){
   {
       (this).find("Line").each(function();
       $("#data").append("<tr><td>" + $(this).attr("Name") + "<td/>");
+      alert($(this).attr("Name"));
       (this).find("Status").each(function();
       $("#data").append("<td>" + $(this).attr("Description") + "<td/></tr>");
 
