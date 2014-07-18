@@ -3,6 +3,7 @@ var mydata = {};
 mydata.url = "http://cloud.tfl.gov.uk/TrackerNet/LineStatus";
 $.ajax({
     type: "GET",
+    headers: { 'Access-Control-Allow-Origin': '*' },
     url: mydata.url,
     dataType: "xml",
     success: xmlParser
