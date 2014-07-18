@@ -4,7 +4,7 @@ mydata.url = "http://cloud.tfl.gov.uk/TrackerNet/LineStatus";
 $.ajax({
     type: "GET",
     url: mydata.url,
-    Access-Control-Allow-Origin: "http://gbsteve.github.io/",
+    cross-domain: true,
     dataType: "xml",
     success: xmlParser
    });
