@@ -7,7 +7,6 @@ $.ajax({
     dataType: "xml",
     success: xmlParser
    });
-});
 
 function xmlParser(xml){
   //find every Line and print the status
