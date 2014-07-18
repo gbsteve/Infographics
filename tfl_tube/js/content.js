@@ -14,10 +14,9 @@ function xmlParser(xml){
   {
       (this).find("Line").each(function(){
       $("#data").append("<tr><td>" + $(this).attr("Name") + "<td/>");
-      }
+      });
       (this).find("Status").each(function(){
       $("#data").append("<td>" + $(this).attr("Description") + "<td/></tr>");
-      }
-
-  }
+      });
+  });
 
